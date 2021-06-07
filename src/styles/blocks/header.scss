@@ -51,6 +51,7 @@
 
   &__link:hover {
     color: $color-blue;
+    transition: $transition_time linear;
   }
 }
 
