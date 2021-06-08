@@ -1,0 +1,13 @@
+.main {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 78px;
+  padding-top: 50px;
+}
+
+.main__catalog {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+  width: 944px;
+}
