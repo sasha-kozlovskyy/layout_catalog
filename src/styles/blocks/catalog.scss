@@ -1,25 +1,13 @@
 .main {
-  display: flex;
+  display: grid;
   justify-content: center;
   margin-bottom: 78px;
   padding-top: 50px;
 }
 
 .main__catalog {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
   width: 944px;
-}
-
-.convert {
-  margin-bottom: 55px;
-  margin-right: 48px;
-}
-
-.convert:nth-child(4n) {
-  margin-right: 0;
-}
-
-.convert:nth-child(n + 5) {
-  margin-bottom: 0;
 }
